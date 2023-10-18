@@ -32,7 +32,7 @@ namespace WindowsFormsGDI
 
             }
 
-            //Pen bluePen = new Pen(Color.Blue, 6);
+            Pen bluePen = new Pen(Color.Blue, 6);
 
             //Color pink = Color.FromArgb(241, 105, 190);
             //Pen bluePen = new Pen(pink, 10);
@@ -47,15 +47,17 @@ namespace WindowsFormsGDI
             TextureBrush tBrush = new TextureBrush(Image.FromFile(@"C:\Users\Student\Desktop\iRxfnBQPVqMLhuxZ_KWvxw.png"));
             g.FillRectangle(tBrush, new Rectangle(10, 10, 500, 500));
 
-            //for(int i = 0; i < points.Count; i++)
-            //{
-            //    Point pPrev = new Point(0, 0);
-            //    if(i!= 0)
-            //    {
-            //        pPrev = points[i-1];
-            //    }
-
-            //}// не доделано
+            for (int i = 0; i < points.Count; i++)
+            {
+                Point pPrev = new Point(0, 0);
+                if (i != 0)
+                {
+                    pPrev = points[i - 1];
+                }
+                Point p = points[i];
+                g.DrawLine(bluePen, pPrev.X, pPrev.Y, p.X, p.Y);
+            }
+            
         }
 
         private void Form1_MouseClick(object sender, MouseEventArgs e)
