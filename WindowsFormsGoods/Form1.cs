@@ -72,5 +72,20 @@ namespace WindowsFormsGoods
                 Goods.Clear();
             }
         }
+
+        private void загрузитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void выходToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsMyProgramm", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsGoods", "WindowsFormsGoods\WindowsFormsGoods.csproj", "{75A896FD-26B5-422B-94F4-B5EAA0CF6FFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsGDI", "WindowsFormsGDI\WindowsFormsGDI.csproj", "{D21FB177-14D4-417E-96CC-F24FC6358B17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{75A896FD-26B5-422B-94F4-B5EAA0CF6FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75A896FD-26B5-422B-94F4-B5EAA0CF6FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75A896FD-26B5-422B-94F4-B5EAA0CF6FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21FB177-14D4-417E-96CC-F24FC6358B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21FB177-14D4-417E-96CC-F24FC6358B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21FB177-14D4-417E-96CC-F24FC6358B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21FB177-14D4-417E-96CC-F24FC6358B17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
